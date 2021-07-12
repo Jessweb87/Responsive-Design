@@ -1,0 +1,72 @@
+/* Add CSS styling here */
+/*div{
+    border:1px solid red;*/
+body{
+    background-color:rgb(247, 211, 144);
+}
+h1{
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.About{
+    color: brown;
+    text-align: center;
+    text-shadow:white;
+    font-size: 15px;
+}
+nav a{
+    margin:0;
+    border:2px solid black;
+    padding:10px;
+    display:inline-block;
+    border-radius: 20px;
+    color: brown;
+    text-decoration: none;
+    text-shadow:black;
+}
+.workspace img{
+    width:40%;
+    height:40%;
+    display:flex;
+    margin:50px;
+}
+#picture{
+    border:5px solid red;
+    height:5px;
+    width: 5px;
+    border-radius:20px;
+    margin-left:50px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: teal;
+    width: auto;
+    height:15vh;
+}
+.contact{
+    text-align: center;
+    text-shadow:black;
+    font-size: 25px;
+    padding: 20px;
+}
+/*Tablet*/
+@media(max-width: 800px){
+    .About{
+        background-position: left-center;
+        text-align:center;
+    }
+    .About div{
+        width:50%;
+        margin-right: 2%;
+        margin-top:5%;
+    }
+
+}
+@media(max-width:500px){
+    .workspace{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
